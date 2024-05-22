@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+}
+
+.header{
+    background-color: #201a19;
+    color: white;
+}
+
+
+.logoTitre{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.navbar{
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inscription{
+    display: flex;
+    column-gap: 10px;
+    padding: 5px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.logo img{
+    width: 70px;
+    padding: 5px;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.logoCouleur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.logoCouleur img{
+    width: 75%;
+}
+
+.bloc{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 100%;
+    margin: auto;
+    row-gap: 10px;
+}
+
+.bloc input, .bloc button{
+    width: 100%;
+    height: 40px;
+
+    border: 1px solid #aeacac;
+}
+
+.bloc input{
+    border-radius: 5px;
+    background-color: rgba(174, 172, 172, 0.5);
+}
+
+.forget{
+    text-align: right;
+    color: red;
+}
+
+
+
+.btnLog{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.btnLog button{
+    background-color: red;
+    color: white;
+}
+
+.textLogin{
+    display: flex;
+    justify-content: space-between;
+    color: red;
+}
+
+.traits{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.trait1, .trait2{
+    width: 35vw;
+    height: 2px;
+    background-color: #aeacac;
+
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+button img{
+    width: 30px;
+}
+
+.platform{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.loginDiscord button{
+    background-color: #5f70be;
+    color: white;
+}
+
+.loginGithub button{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    background-color: #161110;
+    color: white;
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    line-height: 1.5em;
+}
+
+
+
